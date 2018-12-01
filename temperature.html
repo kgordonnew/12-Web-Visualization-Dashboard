@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Weather Analysis Visualization</title>
+  <title>Max Temperature</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -23,78 +23,6 @@
 
 <body style="background-color: lightgray">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand"  href="#">Latitude</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav navbar-right">
-            
-            
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Plots
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="cloudy.html">Cloudiness</a>
-                        <a class="dropdown-item" href="humidity.html">Humidity</a>
-                        <!---<div class="dropdown-divider"></div> -->
-                        <a class="dropdown-item" href="temperature.html">Max Temperature</a>
-                        <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
-                      </div>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="comparison.html">Comparison <span class="sr-only"></span></a>
-                      </li>
-            
-                    <li class="nav-item">
-                      <a class="nav-link" href="data.html">Data</a>
-                    </li>
-                  </ul>
-            
-                </div>
-              </nav>  
-            
-    
-<nav class="navbar navbar-default">    
-<!-- Hold Picture -->
-<div class= "container"> 
-        <div class="row">
-          <div class="col-md-8">
-          <div class = "panel panel-default">
-            <div class="panel-body">
-            <h2>Summary:  Latitude vs Longitude</h2>
-            <hr>
-            <img  src="C:\Users\kimbe\Desktop\GTATL201808DATA3-master\Homework\12-Web\temperaturemap.png" alt="Architecture" width="500" height="500">
-            <p class="text">This project included analysis of weather in over 700 cities across the world.  The visualization included a series of scatter plots to 
-              showcase the relationship between Temperature (F) vs. Latitude; Humidity (%) vs. Latitude; Cloudiness (%) vs. Latitude; and Wind Speed (mph) vs. Latitude.  
-              The analysis included Python-Pandas, OpenWeatherMap API, JSON traversals, Jupyter Notebook and Matplotlib library.</p>
-            <br>
-          </div> 
-        </div>
-      </div>
-        <div class="col-md-4">
-          <div class="panel panel-default">
-            <div class="panel-body">
-        <!--<section id="stylebox"> -->
-          <h2>Visualizations</h2>
-              <hr>
-              <div class="row">
-                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="temperature.html"><img class = "img img-responsive" src="C:\Users\kimbe\Desktop\GTATL201808DATA3-master\Homework\12-Web\temperaturemap.png" style="width:100%" alt=""></a></div>    '</a></div>   
-                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="humidity.html"><img class = "img img-responsive" src="C:\Users\kimbe\Desktop\GTATL201808DATA3-master\Homework\12-Web\humiditymap.png" style="width:100%" alt=""></a></div>    '</a></div>            
-              </div>   
-              <div class="row">
-                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="cloudy.html"><img class = "img img-responsive" src="C:\Users\kimbe\Desktop\GTATL201808DATA3-master\Homework\12-Web\cloudymap.png" style="width:100%" alt=""></a></div>    '</a></div>   
-                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="windspeed.html"><img class = "img img-responsive" src="C:\Users\kimbe\Desktop\GTATL201808DATA3-master\Homework\12-Web\windmap.png" style="width:100%" alt=""></a></div>    '</a></div>   
-              </div>
-            </div>
-          </div>       
-        </div>
-      </div>   
-    
-
 <!-- Navbar (sit on top) -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand"  href="#">Latitude</a>
@@ -112,10 +40,9 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="cloudy.html">Cloudiness</a>
-            <a class="dropdown-item" href="#">Humidity</a>
-            <!---<div class="dropdown-divider"></div> -->
-            <a class="dropdown-item" href="#">Max Temperature</a>
-            <a class="dropdown-item" href="#">Wind Speed</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+            <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
           </div>
         </li>
         <li class="nav-item active">
@@ -146,12 +73,12 @@
       <div class="col-md-8">
       <div class = "panel panel-default">
         <div class="panel-body">
-        <h2>Summary:  Latitude vs Longitude</h2>
+        <h2>Temperature (F) vs. Latitude</h2>
         <hr>
         <img  src="C:\Users\kimbe\Desktop\GTATL201808DATA3-master\Homework\12-Web\temperaturemap.png" alt="Architecture" width="500" height="500">
-        <p class="text">This project included analysis of weather in over 700 cities across the world.  The visualization included a series of scatter plots to 
-          showcase the relationship between Temperature (F) vs. Latitude; Humidity (%) vs. Latitude; Cloudiness (%) vs. Latitude; and Wind Speed (mph) vs. Latitude.  
-          The analysis included Python-Pandas, OpenWeatherMap API, JSON traversals, Jupyter Notebook and Matplotlib library.</p>
+        <p class="text">The further away from the equator that a city resides, the less sunlight that city receives.
+            The relationship of temperature and latitude is as the temperature is warmer approaching the Equator and cooler approaching the Poles.
+            </p>
         <br>
       </div> 
     </div>
@@ -163,12 +90,12 @@
       <h2>Visualizations</h2>
           <hr>
           <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="temperature.html"><img class = "img img-responsive" src="C:\Users\kimbe\Desktop\GTATL201808DATA3-master\Homework\12-Web\temperaturemap.png" style="width:100%" alt=""></a></div>    '</a></div>   
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="humidity.html"><img class = "img img-responsive" src="C:\Users\kimbe\Desktop\GTATL201808DATA3-master\Homework\12-Web\humiditymap.png" style="width:100%" alt=""></a></div>    '</a></div>            
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="temperature.html"><img class = "img img-responsive" src="C:\Users\kimbe\Desktop\GTATL201808DATA3-master\Homework\12-Web\temperaturemap.png" style="width:100%" alt=""></a></div>       
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="humidity.html"><img class = "img img-responsive" src="C:\Users\kimbe\Desktop\GTATL201808DATA3-master\Homework\12-Web\humiditymap.png" style="width:100%" alt=""></a></div>                
           </div>   
           <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="cloudy.html"><img class = "img img-responsive" src="C:\Users\kimbe\Desktop\GTATL201808DATA3-master\Homework\12-Web\cloudymap.png" style="width:100%" alt=""></a></div>    '</a></div>   
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="windspeed.html"><img class = "img img-responsive" src="C:\Users\kimbe\Desktop\GTATL201808DATA3-master\Homework\12-Web\windmap.png" style="width:100%" alt=""></a></div>    '</a></div>   
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="cloudy.html"><img class = "img img-responsive" src="C:\Users\kimbe\Desktop\GTATL201808DATA3-master\Homework\12-Web\cloudymap.png" style="width:100%" alt=""></a></div>       
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="windspeed.html"><img class = "img img-responsive" src="C:\Users\kimbe\Desktop\GTATL201808DATA3-master\Homework\12-Web\windmap.png" style="width:100%" alt=""></a></div>       
           </div>
         </div>
       </div>       
