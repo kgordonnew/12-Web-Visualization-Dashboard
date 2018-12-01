@@ -1,0 +1,41 @@
+﻿/* CSS */
+#stylebox{
+    padding:30px 30px 43px;
+
+}
+
+#bodyIndex
+{
+   position: relative;
+   margin-left: 120px;
+   padding-left: 15px;
+   padding-top: 5px;
+   width: 660px;
+   /*padding-bottom: 70px;*/
+   /*height: 100%;*/
+   /*top: 80px;   */
+   /*background-color: #c8c8c8;*/
+   background-color: #a1a19f;
+   /*clear: both;*/
+   clear:none;
+   padding-bottom: 60px;
+   min-height: 100%;
+   height: auto;
+}
+
+
+#feedContainer
+{
+    position:relative;
+/*    top: 0px;*/
+    top: 0px;
+    bottom: 0;
+    width: 180px;
+    padding-left: 5px;
+    left: 800px;
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    border-left:thin solid #e0e0e0;
+    clear: none;
+}
